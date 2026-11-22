@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  background: #f4f6fa;
+  color: #1f2d3d;
+}
+
+.page-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 10px rgba(31, 45, 61, 0.06);
+}
+
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.page-head h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.page-head .tip {
+  color: #8a94a6;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.pager {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.stat-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 10px rgba(31, 45, 61, 0.06);
+}
+.stat-card__label { color: #8a94a6; font-size: 13px; }
+.stat-card__value { font-size: 26px; font-weight: 700; margin-top: 6px; color: #2f5bff; }
+.stat-card__foot { color: #a3adbd; font-size: 12px; margin-top: 4px; }
