@@ -38,7 +38,7 @@ python -m pytest tests -q --cov=app --cov-report=term-missing
 python run_analytics.py
 ```
 
-`sql/analytics.sql` 里 6 条查询，覆盖面试常问的排名、环比、分位：
+`sql/analytics.sql` 里 6 条查询，覆盖常见的分析场景：排名、环比、分位：
 
 | 编号 | 用什么 | 解决什么 |
 |---|---|---|
