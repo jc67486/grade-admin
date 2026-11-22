@@ -1,15 +1,18 @@
-node_modules/
+﻿node_modules/
 dist/
 tmp/
 .DS_Store
+Thumbs.db
 *.log
 
-# 数据与本地库（不入库）
+# local database & raw data (regenerate with python seed.py)
 server/*.db
 server/data/*.db
 server/data/*.xlsx
 server/data/*.csv
-shot/*.png
+
+# keep screenshots so README can preview them
+!shot/*.png
 
 # python
 __pycache__/
