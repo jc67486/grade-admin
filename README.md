@@ -1,4 +1,4 @@
-# 学生成绩管理系统
+# 学生成绩管理系统 · Flask 后端 + Vue 前端
 
 <p>
   <img alt="Vue" src="https://img.shields.io/badge/Vue-3.4-42b883?logo=vue.js&logoColor=white">
@@ -11,6 +11,8 @@
 </p>
 
 **Vue 3 + Element Plus 前端（6 个页面 + 角色权限）** ｜ **Flask + JWT 后端（48 名学生 / 6 门课程 / 288 条成绩）**
+
+> 同一套业务的 Java 版实现在 [grade-springboot](https://github.com/jc67486/grade-springboot)（Spring Boot + MyBatis-Plus + EasyExcel），两版业务一致、技术栈不同，可对照阅读。
 
 前后端分离的教务管理系统：教师与学生两种角色，覆盖学生、课程、成绩的增删改查与统计，
 含路由级权限、按钮级权限、通用表格组件与前后端双重校验。
