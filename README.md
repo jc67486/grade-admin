@@ -163,7 +163,10 @@ grade-admin/
 │   ├── tests/               # pytest（29 个用例，覆盖率 94%）
 │   └── README_TESTS.md      # 测试与覆盖率说明
 ├── src/
+│   ├── App.vue              # 根组件
+│   ├── main.js              # 入口（挂载 Pinia / Router / Element Plus）
 │   ├── api/request.js       # Axios 双拦截器 + 401 重定向锁
+│   ├── api/modules.js       # 各业务接口封装
 │   ├── router/index.js      # 路由表 + 守卫 + buildMenus 动态菜单
 │   ├── store/user.js        # Pinia + localStorage 持久化
 │   ├── layout/Layout.vue    # 侧边菜单 + 头部
